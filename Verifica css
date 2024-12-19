@@ -1,0 +1,35 @@
+<style>
+  .font{
+    color: #339966;
+    font-size: 120px;
+    font-family: sans-serif; 
+    font-style: italic;
+    font-weight: bold;
+  }
+  b {
+    color: red;
+    font-size: 60px;
+    font-family: serif; 
+    font-weight: normal;
+  }
+  #font2{
+    color: #ff751a;
+    font-family: serif;
+    font-size: 60px;
+    font-weight: normal;
+  }
+  
+</style>
+
+<p class="font"> Ode ai CSS </p>
+<b> Con il</b> <b id="font2">color</b> <b>dipingi emozioni,</b>
+<br>
+<b> con il</b> <b id="font2">font-size</b> <b>crei dimensioni.</b>
+<br>
+<b> Il </b><b id="font2">font-family</b><b>racconta lo stile, </b>
+<br>
+<b>e con il </b> <b id="font2"> font-style </b> <b>tutto è più sottile.</b>
+<br>
+<b>Infine il </b> <b id="font2"> font-weight </b> <b>dà peso e spessore,</b>
+<br>
+<b>ai testi che vibrano nel nostro cuore.</b>
