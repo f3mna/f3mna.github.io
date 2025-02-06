@@ -1,74 +1,23 @@
-9
 
+<html>
 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div con Bordi Hover</title>
+    <style>
+        .bordo-rosso {
+            border: 5px solid red; /* Bordi rossi spessi 5px */
+            padding: 20px; /* Spazio interno per il contenuto */
+            text-align: center; /* Allinea il testo al centro */
+            transition: border-width 0.3s; /* Transizione per l'animazione */
+        }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<style>
-
-  table, th, tr{
-  border: 1px solid;
-}
-
-  #gatto th {
-
-  background-color: #ff99cc;
-  
-}
-</style>
-
-
-
-<h1>TABELLA</h1>
-
-<table id="gatto" >
-  <tr>
-    <th>COLONNA 1</th>
-    <th>COLONNA 2</th>
-    <th>COLONNA 3</th>
-  </tr>
-  <tr>
-    <td>A1</td>
-    <td>B1</td>
-    <td>C1</td>
-  </tr>
-    <tr>
-    <td>A2</td>
-    <td>B2</td>
-    <td>C2</td>
-  </tr>
-  <tr>
-    <td>A3</td>
-    <td>B3</td>
-    <td>C3</td>
-  </tr>
-  <tr>
-    <td>A4</td>
-    <td>B4</td>
-    <td>C4</td>
-  </tr>
-</table>
-
-
-
-
-
-
+        .bordo-rosso:hover {
+            border-width: 15px; /* Aumenta la dimensione dei bordi a 15px al passaggio del mouse */
+        }
+    </style>
+</head>
+<body>
+    <div class="bordo-rosso">Passa il mouse qui!</div>
+</body>
+</html>
